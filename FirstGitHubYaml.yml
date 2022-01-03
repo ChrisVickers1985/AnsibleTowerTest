@@ -3,7 +3,7 @@
   tasks:
     - name: Print message
       debug:
-        msg: Hello Ansible World - FROM GITHUB :)
+        msg: "Hello Ansible World - FROM GITHUB {{ testVariable }} :) "
     - name: Print message
       debug:
         msg: Hello Ansible World SECOND TASKS - FROM GITHUB :)
